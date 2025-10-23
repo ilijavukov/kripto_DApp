@@ -1,0 +1,5 @@
+.exit
+(await ethers.provider.getBalance(a)).toString()
+const a = (new ethers.Wallet(process.env.DEPLOYER_PK)).address
+.exit
+(new ethers.Wallet(process.env.DEPLOYER_PK)).address
